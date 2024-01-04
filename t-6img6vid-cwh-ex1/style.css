@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+padding: 0px;
+}
+
+h1{
+    color: brown;
+    background-color: darkseagreen;
+}
+h2{
+    color: darkmagenta;
+}
+.img{
+    background-color:cadetblue;
+}
+
+.vid{
+    background-color:burlywood;
+}
