@@ -63,4 +63,14 @@ body {
     background-color: rgb(187, 229, 243);
     border-radius: 13px;
     margin: 10px ;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: rgb(71, 188, 227);
+    color: black;
+}
+
+.btn button:visited{
+    text-decoration: underline;
 }
