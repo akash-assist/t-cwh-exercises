@@ -1,0 +1,29 @@
+
+:root{
+    --maincolor: rgb(13, 201, 201);
+    --seccolor: aquamarine;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    background-color:  var(--maincolor);
+}
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar ul li{
+    padding: 14px;
+    list-style-type: none;
+}
+
+
+body{
+    background-color: var(--seccolor);
+    color:rgb(71, 36, 11);
+}
