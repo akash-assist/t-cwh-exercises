@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+nav ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    background-color: palevioletred;
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    padding: 13px;
+}
+
+.main-box{
+    background-color: green;
+    display: flex;
+}
+
+.box1{
+    background-color: coral;
+    margin: 60px;
+    padding: 20px;
+}
+
+.box2{
+    background-color: lightskyblue;
+    margin: 60px;
+    padding: 20px;
+}
+
+.round-box{
+    background-color: bisque;
+    margin: 50px 100px;
+    padding: 50px;
+    border-radius: 200px;
+}
+
+.fixed-logo{
+    padding: 4px;
+    background-color: chartreuse;
+    border: 2px solid red;
+    border-radius: 19px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    width: 4%;
+    text-align: center;
+}
+footer p{
+    padding: 10px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
