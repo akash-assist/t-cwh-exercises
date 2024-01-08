@@ -7,11 +7,11 @@ body{
     background-color: black;
 }
 
+header{
+    position: sticky;
+    top:0;
+}
 nav ul{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    
     background-color: palevioletred;
     list-style-type: none;
     display: flex;
