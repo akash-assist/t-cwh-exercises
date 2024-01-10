@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    width: 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 4px;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 13px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+.translate-image{
+    width: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 0px 3px;
+}
+    
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    margin: 70px;
+}
+
+
+
+.first span{
+    font-size: 50px;
+}
+
+.first span img{
+    width: 100px;
+    margin: 0 23px;
+}
+
+p.para{
+    font-size: 26px;
+    width: 75vw;
+    text-align: center;
+
+}
+
+.btn{
+    cursor:pointer;
+    background-color: #00b6d1;
+    color: white;
+    padding: 18px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.green{
+    background-color: #5cb85c;
+}
+.flex{
+    display: flex;
+}
+
+.second{
+    max-width: 80vw;
+    margin: auto;
+}
+
+
+.item{
+    padding: 23px;
+    background: #f9f9f9;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+.item.lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 13px;
+}
+
+.download{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: sans-serif;
+}
+.download :nth-child(1){
+    width: 60px;
+    padding: 0 12px;
+}
+.download :nth-child(2){
+    font-size: 27px;
+}
+
+@media screen and (max-width: 1000px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 13px;
+    }
+}
