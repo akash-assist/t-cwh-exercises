@@ -171,3 +171,53 @@ nav button {
     font-size: 24px;
     font-weight: bolder;
 }
+
+.faqs{
+    background: black;
+    color: white;
+    padding: 34px;
+}
+.faqs p{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.faq-box :hover{
+    transition: all;
+    background-color: rgb(41,41,41);
+}
+
+
+.faq-box{
+    color: white;
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    font-size: 23px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.faq-box svg{
+    filter: invert(1);
+    /* or change the stroke of svg */
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div a{
+    text-decoration: none;
+    color: white;
+}
