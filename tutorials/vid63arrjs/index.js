@@ -107,4 +107,90 @@ console.log(brr);
 
 
 
+console.log("hello");
+arr.forEach((value, index, arr)=>{
+    console.log(value, index, arr);
+})
 
+
+
+//
+
+let myObj = {
+    name : "alice",
+    country : "doesn't matter",
+    what : "she is loveable"
+}
+for (const i in myObj) {
+    if (Object.hasOwnProperty.call(myObj, i)) {
+        const toPrint = myObj[i];
+        console.log(i + " -> " + toPrint);
+    }
+}
+
+
+for (const iterator of arr) {
+    console.log(iterator);
+}
+
+
+
+
+//map filter reduce
+
+// let newArr = [];
+// for(let idx=0; idx<brr.length; ++idx){
+//     const element = brr[idx];
+//     newArr.push(element*element);
+// }
+
+
+let newArr = brr.map((i, index, brrcp)=>{
+    return i*i;
+})
+
+for(let i=0; i<newArr.length; ++i){
+    console.log(newArr[i]);
+}
+
+
+
+
+
+const greaterThanHund = (ele)=>{
+    return ele>100;
+}
+
+console.log(brr.filter(greaterThanHund))
+
+// for(let i=0; i<newArr.length; ++i){
+//     console.log(newArr[i]);
+// }
+
+console.log(brr.filter((ele)=>{
+    return ele>100;
+}))
+
+
+
+let arr2 = [3,52,14,2,5]
+let add = (ele1, ele2) => {
+    return ele1+ele2;
+}
+//keep reducing from front adding till last
+console.log(arr2.reduce(add));
+
+
+let str  = "akash";
+console.log(Array.from("str"));
+
+let newObject = {
+    name : "anand",
+    class : "Expert Programmer",
+    techStack : "everything you can think of"
+
+};
+
+let xrr = Array.from(newObject);
+//don't know what happened need to take a look
+console.log(xrr);
